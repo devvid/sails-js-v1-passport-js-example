@@ -1,11 +1,11 @@
-# passportexample
+# Passport Implementation Example with Sails.js V1
 
-a [Sails v1](https://sailsjs.com) application
-
+A [Sails v1](https://sailsjs.com) application implementing the [Passport](http://www.passportjs.org) auth system created by David Cedar
+Follow along with the Youtube playlist for a line by line implementation. https://youtu.be/hY52-Ls01YQ
 
 ### Links
-
-+ [Sails framework documentation](https://sailsjs.com/documentation)
++ [David's Youtube Channel](https://www.youtube.com/user/Digitalbight)
++ [Sails V1 framework documentation](https://next.sailsjs.com/documentation)
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
 + [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
 + [Community support options](https://sailsjs.com/support)
