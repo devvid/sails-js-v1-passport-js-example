@@ -1,0 +1,43 @@
+{
+  "name": "passportexample",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "async": "2.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "connect-mongo": "^2.0.0",
+    "connect-redis": "3.2.0",
+    "grunt": "1.0.1",
+    "lodash": "3.10.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-strategy": "^1.0.0",
+    "sails": "^1.0.0-41",
+    "sails-hook-grunt": "^2.0.0",
+    "sails-hook-orm": "^2.0.0-16",
+    "sails-hook-sockets": "^1.4.0",
+    "sails-mongo": "^1.0.0-11",
+    "socket.io-redis": "5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "4.11.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your code looks good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/passportexample.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": "",
+  "engines": {
+    "node": "8"
+  }
+}
